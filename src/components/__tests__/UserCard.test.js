@@ -17,8 +17,8 @@ describe("UserCard", () => {
     expect(screen.getByText(/loading/i)).toBeInTheDocument();
 
     await waitFor(() => {
-      expect(screen.getByText(/sanya/i)).toBeInTheDocument();
-      expect(screen.getByText(/sanya@example.com/i)).toBeInTheDocument();
+      expect(screen.getByText(/asutosh/i)).toBeInTheDocument();
+      expect(screen.getByText(/asutosh@example.com/i)).toBeInTheDocument();
     });
 
     expect(spy).toHaveBeenCalledWith(1);
