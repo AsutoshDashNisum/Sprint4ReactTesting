@@ -6,7 +6,7 @@ import UserCard from "../UserCard";
 import * as userService from "../../services/userService";
 
 describe("UserCard", () => {
-  const mockUser = { name: "Sanya", email: "sanya@example.com" };
+  const mockUser = { name: "Asutosh", email: "asutosh@example.com" };
 
   it("calls getUserById and displays user info", async () => {
     // Spy and mock the getUserById function
